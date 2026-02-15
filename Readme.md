@@ -29,7 +29,7 @@ This assignment focuses on **conceptual modeling (UML), ER design (Chen notation
 
 ---
 
-# 🎯 Assignment Requirements Fulfilled
+# Assignment Requirements Fulfilled
 
 ✔ Minimum 5 core functionalities  
 ✔ More than 5 entities  
@@ -43,7 +43,7 @@ This assignment focuses on **conceptual modeling (UML), ER design (Chen notation
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 The database is structured into four logical modules:
 
@@ -154,7 +154,7 @@ Synthetic data simulates real-world scenarios:
 
 The database can be recreated using:
 
-```sql
+sql
 SOURCE laundrydb.sql;
 
 
@@ -177,16 +177,20 @@ Synthetic data simulates real-world scenarios:
 
 The database can be recreated using:
 
-```sql
+sql
 SOURCE laundrydb.sql;
 
-Databases_Assignment_1/
-│
-├── UML_Diagram.pdf
+Databases_Assignment_1
+
+├── UML
+
 ├── ER_Diagram.pdf
-├── db_assignment1.pdf
-├── laundrydb.sql
-└── README.md
+
+├── Assignment_1_report.pdf
+
+├── DumpLaundryDB.sql
+
+└── Readme.md
 
 🛠️ Technologies Used
 
@@ -204,31 +208,32 @@ Windows x86_64
 
 👥 Team Contributions
 
-Kaushal
+-Kaushal
 
 Designed ER Diagram (Chen notation)
 
 Contributed to relational schema structuring
 
-Vedant
+
+-Vedant
 
 Designed UML Class Diagram
 
 Contributed to schema alignment
 
-Anurag
+-Anurag
 
 Implemented MySQL database schema
 
 Enforced integrity constraints
 
-Dhruv
+-Dhruv
 
 Structured and formatted technical report
 
 Assisted in schema ideation
 
-Pratik
+-Pratik
 
 Assisted in SQL implementation
 
@@ -238,14 +243,14 @@ Verified constraint enforcement
 
 We affirm that this project was completed in accordance with the IITGN Honor Code. No unauthorized assistance or external solutions were used.
 
-🚀 Key Outcomes
+Key Outcomes
 
-Fully normalized relational schema
+- Fully normalized relational schema
 
-Correct M:N resolution via associative tables
+- Correct M:N resolution via associative tables
 
-Enforced domain constraints
+- Enforced domain constraints
 
-Validated referential integrity
+- Validated referential integrity
 
-Complete UML → ER → SQL pipeline
+- Complete UML → ER → SQL pipeline
