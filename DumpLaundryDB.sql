@@ -63,7 +63,18 @@ CREATE TABLE `employee` (
 
 LOCK TABLES `employee` WRITE;
 /*!40000 ALTER TABLE `employee` DISABLE KEYS */;
-INSERT INTO `employee` VALUES (1,'Ramesh Kumar','Delivery Driver','9988776655','2024-01-15'),(2,'Suresh Yadav','Washer','9988776644','2024-02-10'),(3,'Anita Desai','Ironing Specialist','9988776633','2024-03-05'),(4,'Pooja Reddy','Manager','9988776622','2023-11-20'),(5,'Vikram Malhotra','Dry Cleaning Expert','9988776611','2024-01-25'),(6,'Rajesh Koothrappali','Driver','9988776600','2024-04-01');
+INSERT INTO `employee` VALUES
+(1,'Ramesh Kumar','Delivery Driver','9988776655','2024-01-15'),
+(2,'Suresh Yadav','Washer','9988776644','2024-02-10'),
+(3,'Anita Desai','Ironing Specialist','9988776633','2024-03-05'),
+(4,'Pooja Reddy','Manager','9988776622','2023-11-20'),
+(5,'Vikram Malhotra','Dry Cleaning Expert','9988776611','2024-01-25'),
+(6,'Rajesh Koothrappali','Driver','9988776600','2024-04-01'),
+(7,'Neha Sharma','Customer Support','9988776599','2024-04-12'),
+(8,'Amit Verma','Quality Checker','9988776588','2024-05-03'),
+(9,'Kavita Joshi','Accountant','9988776577','2024-05-15'),
+(10,'Rahul Mehta','Inventory Supervisor','9988776566','2024-06-01');
+;
 /*!40000 ALTER TABLE `employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -96,7 +107,18 @@ CREATE TABLE `feedback` (
 
 LOCK TABLES `feedback` WRITE;
 /*!40000 ALTER TABLE `feedback` DISABLE KEYS */;
-INSERT INTO `feedback` VALUES (1,3,3,5,'Excellent service, delivered on time!','2026-02-14 21:37:05'),(2,1,1,4,'Good wash, but folding could be better.','2026-02-14 21:37:05'),(3,4,4,3,'Ironing was okay, but delivery was late.','2026-02-14 21:37:05'),(4,7,7,5,'Super fast express delivery.','2026-02-14 21:37:05'),(5,2,2,2,'Pickup was delayed by an hour.','2026-02-14 21:37:05');
+INSERT INTO `feedback` VALUES
+(1,3,3,5,'Excellent service, delivered on time!','2026-02-14 21:37:05'),
+(2,1,1,4,'Good wash, but folding could be better.','2026-02-14 21:37:05'),
+(3,4,4,3,'Ironing was okay, but delivery was late.','2026-02-14 21:37:05'),
+(4,7,7,5,'Super fast express delivery.','2026-02-14 21:37:05'),
+(5,2,2,2,'Pickup was delayed by an hour.','2026-02-14 21:37:05'),
+(6,5,5,5,'Dry cleaning quality was excellent.','2026-02-14 21:37:05'),
+(7,6,6,4,'Driver was polite and punctual.','2026-02-14 21:37:05'),
+(8,8,8,3,'Service was average, expected better packaging.','2026-02-14 21:37:05'),
+(9,9,9,1,'Very poor stain removal. Disappointed.','2026-02-14 21:37:05'),
+(10,10,10,4,'Overall good experience, will use again.','2026-02-14 21:37:05');
+
 /*!40000 ALTER TABLE `feedback` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -157,7 +179,18 @@ CREATE TABLE `lost_item` (
 
 LOCK TABLES `lost_item` WRITE;
 /*!40000 ALTER TABLE `lost_item` DISABLE KEYS */;
-INSERT INTO `lost_item` VALUES (1,5,'Blue handkerchief missing','2026-02-14 21:37:05',50.00),(2,8,'Button missing on shirt','2026-02-14 21:37:05',20.00);
+INSERT INTO `lost_item` VALUES
+(1,5,'Blue handkerchief missing','2026-02-14 21:37:05',50.00),
+(2,8,'Button missing on shirt','2026-02-14 21:37:05',20.00),
+(3,2,'Single sock missing','2026-02-14 21:37:05',30.00),
+(4,7,'Scarf misplaced during washing','2026-02-14 21:37:05',80.00),
+(5,4,'Stain on white kurta after wash','2026-02-14 21:37:05',120.00),
+(6,9,'Belt missing from trousers','2026-02-14 21:37:05',70.00),
+(7,1,'Cap lost during processing','2026-02-14 21:37:05',40.00),
+(8,6,'Pocket torn on jeans','2026-02-14 21:37:05',150.00),
+(9,10,'Silk dupatta damaged','2026-02-14 21:37:05',200.00),
+(10,3,'Tie missing after dry cleaning','2026-02-14 21:37:05',60.00);
+
 /*!40000 ALTER TABLE `lost_item` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -397,7 +430,18 @@ CREATE TABLE `service` (
 
 LOCK TABLES `service` WRITE;
 /*!40000 ALTER TABLE `service` DISABLE KEYS */;
-INSERT INTO `service` VALUES (1,'Wash & Fold','Standard machine wash and folding service',50.00),(2,'Dry Cleaning','Chemical cleaning for delicate fabrics',150.00),(3,'Steam Ironing','Professional steam pressing',30.00),(4,'Stain Removal','Intensive chemical stain treatment',80.00),(5,'Express Delivery','Same day washing and delivery',100.00),(6,'Premium Wash','Eco-friendly detergent and fabric softeners',70.00);
+INSERT INTO `service` VALUES
+(1,'Wash & Fold','Standard machine wash and folding service',50.00),
+(2,'Dry Cleaning','Chemical cleaning for delicate fabrics',150.00),
+(3,'Steam Ironing','Professional steam pressing',30.00),
+(4,'Stain Removal','Intensive chemical stain treatment',80.00),
+(5,'Express Delivery','Same day washing and delivery',100.00),
+(6,'Premium Wash','Eco-friendly detergent and fabric softeners',70.00),
+(7,'Shoe Cleaning','Deep cleaning and deodorizing of footwear',120.00),
+(8,'Curtain Washing','Specialized washing for curtains and drapes',200.00),
+(9,'Blanket Cleaning','Heavy-duty washing for blankets and quilts',180.00),
+(10,'Leather Cleaning','Professional care for leather garments',250.00);
+
 /*!40000 ALTER TABLE `service` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
